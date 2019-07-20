@@ -6,8 +6,6 @@
 
 :目标: 本章将使用正确的配置初始化一个 Visual Studio 项目。确保你拥有 Kinect 编程所需要的所有组件。
 
-:源码: :download:`1_Basics.zip <../../src/kinect1/1_Basics.zip>`
-
 
 环境需求
 -----------
