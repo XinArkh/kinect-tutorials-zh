@@ -280,6 +280,19 @@ Kinect 数据是 BGRA 格式的，所以我们可以直接将其复制到我们�
 
 显然，我们应该用一个函数把上面的片段包起来，这里为了方便直接把它塞进了\ ``main()``\ 函数中。
 
+.. code:: cpp
+
+    int main(int argc, char* argv[]) {
+        if (!init(argc, argv)) return 1;
+        if (!initKinect()) return 1;
+
+        /* ...OpenGL texture and camera initialization... */
+
+        // Main loop
+        execute();
+        return 0;
+    }
+
 
 将图像帧画到屏幕上
 ++++++++++++++++++++++

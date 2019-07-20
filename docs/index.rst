@@ -12,11 +12,16 @@ Kinect 中文教程
 本教程面向 Kinect 的初学者，使用 **C++ 语言**\ 构建了 Kinect 的一些入门案例，并使用 OpenGL (GLUT 或 SDL) 来实现可视化。教程分为相互平行的两部分，分别是：
 
 - 基于 **Kinect v1.8 SDK** 的基础操作，适用于基于结构光的 Kinect 传感器，包括 **XBox 360 Kinect** 和 **Kinect for Windows**\ 。
+
+.. image:: ./images/kinectv1.png
+
 - 基于 **Kinect v2 SDK** 的基础操作，适用于采用 Time of Flight (TOF) 深度感知方式的 Kinect 传感器，即 **XBox One Kinect**\ 。
+
+.. image:: ./images/kinectv2.jpg
 
 基本原则
 ===========
-在使用多种设备 API 后，作者发现自己所使用的许多工具都没有被很好地支持。作为一份（给后来者）的参考，本教程应运而生。以下是本教程的指导原则：
+在把玩了一阵子 Kinect 之后，作者发现很多资料都残缺不全。作为一份（给后来者）的参考，本教程应运而生。以下是本教程的指导原则：
 
 - **如无必要，勿费口舌** - 本教程主要侧重于如何使用各种 API。对于其余的窗口创建和显示部分，将会在简单概括后略过。如果你想要深入学习 OpenGL、C++ 等知识，可以去寻找这些方面更加专业的教程。这里不会同时精讲三种 API 和一种语言，这只会让人更加糊涂。
 - **精炼代码，主次分明** - 教程中的代码刚好能够让它工作，其余部分基本会忽略。为了避免头文件过多带来的混乱，一部分代码结构会被牺牲，这样你可以专注于相关的功能。
@@ -44,6 +49,10 @@ Kinect 中文教程
    :numbered:
 
    kinect2/0_Setup
+   kinect2/1_Basics
+   kinect2/2_Depth
+   kinect2/3_PointCloud
+   kinect2/4_SkeletalTracking
 
 
 索引
