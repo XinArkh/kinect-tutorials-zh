@@ -29,10 +29,12 @@
 大多数 windows 系统并不会自带 GLUT。GLUT 是一套在 OpenGL 中用于窗口化和处理事件的代码库，它非常陈旧了，但使用依然很广泛。
 
 #. 去\ `这个网站 <http://www.transmissionzero.co.uk/software/freeglut-devel/>`_\ 下载并解压 MSVC freeglut 的二进制文件。
-#. 将刚刚解压的 include/ 目录和 lib/ 目录中的内容复制到合适的 Windows SDK 目录中，如：
+#. 将刚刚解压的\ ``include/``\ 目录和\ ``lib/``\ 目录中的内容复制到合适的 Windows SDK 目录中，如：
     - Visual Studio 2010 中：\ ``C:/Program Files/Microsoft SDKs/Windows/v7.0A/Include/``\ 和 \ ``C:/Program Files/Microsoft SDKs/Windows/v7.0A/Lib/``\ 
     - Visual Studio 2012以上：\ ``C:/Program Files/Windows Kits (x86)/8.1/Include/um/``\ 和 \ ``C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/``\ 
 #. 复制\ ``bin/x64/freeglut.dll``\ 到\ ``C:/Windows/System32``\ 、\ ``bin/x86/freeglut.dll``\ 到\ ``C:/Windows/SysWOW64``\ 。如果你的系统是 32 位的，只需要把\ ``bin/x86/freeglut.dll``\ 复制到\ ``C:/Windows/System32``\ 。
+
+.. _install-alternative:
 
 .. note::
     

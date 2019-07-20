@@ -35,6 +35,7 @@ Kinect 中文教程
    kinect1/1_Basics
    kinect1/2_Depth
    kinect1/3_PointCloud
+   kinect1/4_SkeletalTracking
 
 
 .. toctree::

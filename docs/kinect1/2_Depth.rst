@@ -3,7 +3,7 @@ Kinect 深度数据
 
 :目标: 学习如何从一台 Kinect 中获取深度数据，并了解数据的格式是什么样的。
 
-:源码: `点此查看 <https://github.com/XinArkh/roslibpy-docs-zh>`_    :download:`1_Basics.zip <../../src/kinect1/2_Depth.zip>`
+:源码: `点此查看 <https://github.com/XinArkh/kinect-tutorials-zh/tree/master/src/kinect1/2_Depth>`_    :download:`2_Depth.zip <../../src/kinect1/2_Depth.zip>`
 
 
 概述
