@@ -11,12 +11,10 @@
 教程已托管至Read the Docs，可以随时[在线阅读](https://kinect-tutorials-zh.readthedocs.io/zh_CN/latest/index.html)。如果需要在本地构建离线文档，可按照以下方式操作：
 
 1. 将该仓库 clone 至本地，然后进入项目根目录。
-
 2. 按照`requirements.txt`中所列举的环境要求自行安装所需要的 Python 依赖库。
-
 3. 通过`make`命令构建文档。
 
-   **Linux 下的 make 命令：**
+**Linux 下的 make 命令：**
 
 ```shell
 make html
