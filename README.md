@@ -4,7 +4,7 @@
 
 本教程分为 Kinect v1 部分和 Kinect v2 部分，可根据 Kinect 硬件型号自行选择阅读。
 
-教程面向 Kinect 的初学者，使用**C++**语言构建了 Kinect 的一些入门案例，并使用 OpenGL (GLUT 或 SDL) 来实现可视化。
+教程面向 Kinect 的初学者，使用 **C++** 语言构建了 Kinect 的一些入门案例，并使用 OpenGL (GLUT 或 SDL) 来实现可视化。
 
 ## 本地构建
 
