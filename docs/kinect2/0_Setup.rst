@@ -1,10 +1,20 @@
+.. _setup-2:
+
 准备工作
 ============
 
 
+.. note::
+
+    **这一部分教程是针对第二代 Kinect 的。**\ 你的 Kinect 是第一代的吗？来看 :ref:`Kinect v1.8 教程 <setup>`\ 吧！
+
 本系列教程适用于希望使用微软 Kinect SDK 的 C++ 程序员。教程将尽量精简 Windows 代码。我们将使用 OpenGL 提供图形化操作。
 
 :目标: 本章将使用正确的配置初始化一个 Visual Studio 项目。确保你拥有 Kinect 编程所需要的所有组件。
+
+.. note::
+
+    **译者注**\ ：在本章开始之前，确保 Kinect SDK 已顺利安装，可参考\ :ref:`附录 <install-2>`\ 。
 
 
 环境需求

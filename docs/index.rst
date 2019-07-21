@@ -15,13 +15,13 @@ Kinect 中文教程
 
 .. image:: ./images/kinectv1.png
 
-- 基于 **Kinect v2 SDK** 的基础操作，适用于采用 Time of Flight (TOF) 深度感知方式的 Kinect 传感器，即 **XBox One Kinect**\ 。
+- 基于 **Kinect v2.0 SDK** 的基础操作，适用于采用 Time of Flight (TOF) 深度感知方式的 Kinect 传感器，即 **XBox One Kinect**\ 。
 
 .. image:: ./images/kinectv2.jpg
 
 基本原则
 ===========
-在把玩了一阵子 Kinect 之后，作者发现很多资料都残缺不全。作为一份（给后来者）的参考，本教程应运而生。以下是本教程的指导原则：
+在把玩过一阵子 Kinect 之后，作者发现很多资料都残缺不全。作为一份（给后来者）的参考，本教程应运而生。以下是本教程的指导原则：
 
 - **如无必要，勿费口舌** - 本教程主要侧重于如何使用各种 API。对于其余的窗口创建和显示部分，将会在简单概括后略过。如果你想要深入学习 OpenGL、C++ 等知识，可以去寻找这些方面更加专业的教程。这里不会同时精讲三种 API 和一种语言，这只会让人更加糊涂。
 - **精炼代码，主次分明** - 教程中的代码刚好能够让它工作，其余部分基本会忽略。为了避免头文件过多带来的混乱，一部分代码结构会被牺牲，这样你可以专注于相关的功能。
@@ -45,7 +45,7 @@ Kinect 中文教程
 
 .. toctree::
    :maxdepth: 2
-   :caption: Kinect v2 C++ SDK 基础教程
+   :caption: Kinect v2.0 C++ SDK 基础教程
    :numbered:
 
    kinect2/0_Setup
@@ -53,6 +53,21 @@ Kinect 中文教程
    kinect2/2_Depth
    kinect2/3_PointCloud
    kinect2/4_SkeletalTracking
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 附录
+
+   SDKInstallation
+   docs
+   comparison
+   about
+
+.. note::
+
+    附录部分是译者整理的相关资料，作为补充和参考。
+
 
 
 索引
