@@ -5,9 +5,9 @@ Kinect 中文教程
 
 :作者: `Edward Zhang <http://ed.ilogues.com/>`_
 
-:译者: `Wu Hsin <https://github.com/XinArkh>`_
+:译者: `Wu Xin <https://github.com/XinArkh>`_
 
-:授权: 该文档遵循 `CC BY-SA 4.0 <http://creativecommons.org/licenses/by-sa/4.0/>`_ 许可协议。
+:授权: 该（翻译）文档遵循 `CC BY-SA 4.0 <http://creativecommons.org/licenses/by-sa/4.0/>`_ 许可协议。
 
 本教程面向 Kinect 的初学者，使用 **C++ 语言**\ 构建了 Kinect 的一些入门案例，并使用 OpenGL (GLUT 或 SDL) 来实现可视化。教程分为相互平行的两部分，分别是：
 
@@ -28,7 +28,7 @@ Kinect 中文教程
 
 .. note::
    
-   该教程是在原有英文教程的基础上，由译者个人维护的\ **非官方**\ 中文教程。\ `点击此处 <https://homes.cs.washington.edu/~edzhang/tutorials/index.html>`_\ 可以查看原版英文教程。
+   **译者注**\ ：该教程是在原有英文教程的基础上，由译者个人维护的\ **非官方**\ 中文教程。\ `点击此处 <https://homes.cs.washington.edu/~edzhang/tutorials/index.html>`_\ 可以查看原版英文教程。
 
 
 .. toctree::
@@ -66,7 +66,7 @@ Kinect 中文教程
 
 .. note::
 
-    附录部分是译者整理的相关资料，作为补充和参考。
+    **译者注**\ ：附录部分是译者整理的相关资料，作为补充和参考。
 
 
 

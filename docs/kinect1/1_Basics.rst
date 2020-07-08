@@ -113,11 +113,11 @@ Kinect 初始化
 
 .. note::
 
-    **译者注**：在这里忍不住要对微软说句脏话，旧版 Kinect 下架之后连文档也清理得一干二净。目前的官网的过期版本存档中保存的是 `Kinect for Windows SDK 2.0 版本 <https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn799271(v=ieb.10)>`_\ ，SDK v1 部分已经被完全移除，所以\ **上面提供的两个官网链接其实都是打不开的**\ 。
+    **译者注**：目前微软已将旧版 Kinect SDK (v1) 文档完全移除，只剩下 `Kinect for Windows SDK 2.0 版本 <https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn799271(v=ieb.10)>`_\ ，所以\ **上面提供的两个官网链接其实都是打不开的**\ 。
 
-    译者经过多方搜索，在这里提供一个聊胜于无的 SDK v1 文档查阅途径，即通过网页快照存档网站 Wayback Machine 来查阅\ `官方文档的历史快照 <https://web.archive.org/web/20130906183129/http://msdn.microsoft.com/en-us/library/hh855347.aspx>`_\ 。
+    这里提供一个聊胜于无的 SDK v1 文档查阅途径，即通过网页快照存档网站 Wayback Machine 来查阅\ `官方文档的历史快照 <https://web.archive.org/web/20130906183129/http://msdn.microsoft.com/en-us/library/hh855347.aspx>`_\ 。
 
-    举个例子，上面提到的打不开的两个页面，在网页快照中分别如下：
+    例如，上面提到的打不开的两个页面，在网页快照中分别如下：
 
     - \ ``NuiInitialize()``\ 方法\ `官方 API 的网页快照 <https://web.archive.org/web/20120915103909/http://msdn.microsoft.com/en-us/library/hh855368#NUI_INITIALIZE>`_\ 
     - \ ``NuiImageStreamOpen()``\ 方法\ `官方文档的网页快照 <https://web.archive.org/web/20120528191325/http://msdn.microsoft.com/en-us/library/nuiimagecamera.nuiimagestreamopen>`_\ 
@@ -126,7 +126,7 @@ Kinect 初始化
 
     - 微软官网最后发布的一代 Kinect SDK 版本号为 1.8.0.595，发布日期为 2013 年 9 月 13 日，在此之后文档更新应基本停止。
     - 2014 年 10 月微软发布第二代 Kinect for Windows。
-    - 微软官网大约在 17 年至 18 年前后彻底撤掉了 Kinect SDK v1 文档的存档，网页快照不再记录。
+    - 微软官网大约在 17 年至 18 年前后彻底移除了 Kinect SDK v1 文档的存档，网页快照不再记录。
 
     另外还需注意，网页快照的抓取时间是有一定随机性的，有时一些页面可以查看，但另一些页面可能会报错，对于报错的情况，可以换一个时间节点查看。
 
