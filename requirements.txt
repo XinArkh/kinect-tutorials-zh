@@ -1,4 +1,4 @@
 Sphinx==1.8.5
 sphinx-rtd-theme==0.4.3
-autobahn==20.12.3
+autobahn==26.7.1
 Twisted>=20.3.0
